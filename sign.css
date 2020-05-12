@@ -1,0 +1,63 @@
+.navbar{
+    background-color:rgb(5, 5, 65);
+    padding: 0;
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.navbar img{
+    width:60px;
+    height: 40px;
+    margin-top:-10px;
+}
+
+.stmt{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.log{
+    height: 103vh;
+    width: 100%;
+    background-image:  url("Images/log.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.box{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 50px;
+    margin-top: 0;
+    
+}
+.box h2{
+    text-align: center;
+}
+
+.box a{
+    
+    color: white;
+}
+a:hover  h5{
+
+    color:red;
+}
+
+/* #btn{
+ 
+    background-image: linear-gradient(#dd2476,#ff512f);
+    text-decoration: none;
+}  */
+
+
+    
+   
+     
+    

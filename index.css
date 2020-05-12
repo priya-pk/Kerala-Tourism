@@ -1,0 +1,137 @@
+
+.navbar{
+    background-color:rgb(5, 5, 65);
+    padding: 0;
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+.navbar img{
+    width:60px;
+    height: 40px;
+    margin-top:-10px;
+}
+
+.stmt{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.item{
+    height: 400px;
+   
+}
+
+#myCarousel{
+    margin:-20px;
+}
+.tags{
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 55px;
+    font-weight: 500;
+}
+.main{
+    height: 150vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url("Images/bgimg1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    
+
+}
+.section {
+    text-shadow: 1px 1px 2px black; 
+    letter-spacing: 3px; 
+}
+
+
+.section h3{
+    font-size: 35px;
+    font-weight: 200;
+}
+.section h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.change-content::after{
+    content: '';
+    animation:changetext 10s infinite linear;
+    color: rgba(83, 235, 235, 0.842)
+}
+@keyframes changetext{
+    0%{content: " KOVALOM";}
+    20%{content: " VAGAMON";}
+    40%{content: " MUNNAR";}
+    60%{content: " KUMARAKOM";}
+    80%{content: " THEKKADY";}
+    100%{content: " WAYANAD";}
+}
+.content{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 35px;
+    padding-top: 80px;
+}
+.btn a{
+    color: seashell;
+}
+.footer{
+    background-image: url("Images/footer.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.para{
+    font-size: 18px;
+    justify-content: center;
+}
+.navbar-nav a:hover{
+    color: #0c7560;
+    font-size: 15px;
+}
+header a{
+    color: white;
+}
+.awesome{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.awesome a{
+   
+    margin: 10px;
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+.fa-facebook{
+    color:rgb(11, 11, 185);
+}
+.fa-twitter{
+    color: rgb(37, 100, 235);
+}
+.fa-instagram{
+    color: rgb(207, 44, 207);
+}
+.fa-youtube{
+    color: red;
+}
